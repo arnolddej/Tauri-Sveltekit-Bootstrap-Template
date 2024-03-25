@@ -36,3 +36,28 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+
+
+
+
+## Tauri + Bun
+
+This template is using the Tauri 2.0 beta version + Bun for managing all non rust stuff
+
+To initialize the project after cloning:
+
+In the root directory:
+```bash
+bun i
+```
+
+Then for running the application:
+```bash
+bunx tauri dev
+```
+or
+```bash
+cargo tauri dev
+```
+
