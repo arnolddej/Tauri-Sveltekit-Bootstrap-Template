@@ -61,3 +61,8 @@ or
 cargo tauri dev
 ```
 
+## Updating (npm) modules
+
+```bash
+bun update --verbose
+```
